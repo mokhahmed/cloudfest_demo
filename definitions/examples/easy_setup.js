@@ -4,13 +4,14 @@ load_id = dataform.projectConfig.vars.load_id
 source_schema_name = "citibike_source"
 stage_schema_name = "citibike_stage"
 datavualt_schema_name = "citibike_dvm"
-source_tables_prefix = "src_citibike_"
-stage_tables_prefix = "stg_citibike_"
-hubs_tables_prefix = "hub_citibike_"
-satellites_tables_prefix = "sat_citibike_"
-links_tables_prefix = "link_citibike_"
+source_tables_prefix = "src_"
+stage_tables_prefix = "stg_"
+hubs_tables_prefix = "hub_"
+satellites_tables_prefix = "sat_"
+links_tables_prefix = "link_"
 tables_type = "incremental"
 all_models = models.get_all()
+
 links_tables= [
   {
     source: models.trips,

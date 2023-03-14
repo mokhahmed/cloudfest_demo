@@ -2,8 +2,8 @@
   "defaultSchema": "dataform",
   "assertionSchema": "dataform_assertions",
   "warehouse": "bigquery",
-  "defaultDatabase": "analytics",
-  "defaultLocation": "US",
+  "defaultDatabase": "ma-cloudfest-pl-demo-01",
+  "defaultLocation": "us-central1",
   "vars": {
     "load_id": "load_id"
   }
